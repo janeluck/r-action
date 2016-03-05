@@ -25,7 +25,7 @@
         {name: 'pages/account/app'}	//说白了就是各页面的入口文件，相对baseUrl的路径，也是省略后缀“.js”
     ],
 
-    fileExclusionRegExp: /^(r|build)\.js|.*\.scss$/,	//过滤，匹配到的文件将不会被输出到输出目录去
+    fileExclusionRegExp: /^(r|build)\.js|.*\.scss$|^\./,	//过滤，匹配到的文件将不会被输出到输出目录去
 
     optimizeCss: 'standard',
 
